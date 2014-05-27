@@ -41,9 +41,9 @@ class TraingleFactors
         puts "Triangle number is: #{traingle_number}"
         puts "Iteration count is: #{@nat_num}"
       end
+      print "."
       @highest_divisors_count = [@highest_divisors_count, factors_count].max
     end
-    print "."
   end
 end
 
